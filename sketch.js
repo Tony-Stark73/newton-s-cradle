@@ -24,11 +24,11 @@ bob2=new Bob(bobx-ra,boby,ra)
 bob3=new Bob(bobx,boby,ra)
 bob5=new Bob(bobx+(2*ra),boby,ra)
 bob4=new Bob(bobx+ra,boby,ra)
-rope1=new rope(bob1.body,roof.body,-4*ra,0)
-rope2=new rope(bob2.body,roof.body,-2*ra,0)
+rope1=new rope(bob1.body,roof.body,-4.5*ra,0)
+rope2=new rope(bob2.body,roof.body,-2.5*ra,0)
 rope3=new rope(bob3.body,roof.body,0,0)
-rope4=new rope(bob4.body,roof.body,2*ra,0)
-rope5=new rope(bob5.body,roof.body,4*ra,0)
+rope4=new rope(bob4.body,roof.body,2.5*ra,0)
+rope5=new rope(bob5.body,roof.body,4.5*ra,0)
 
 
 Engine.run(engine);
